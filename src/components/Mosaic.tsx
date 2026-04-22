@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
-import { Dialog, DialogContent, DialogTitle, DialogDescription } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle, DialogDescription } from "./ui/dialog";
+import "../styles.css"
 
 export type MosaicImage = {
   src: string;

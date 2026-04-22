@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
-import { Mosaic, type MosaicImage } from "@/components/Mosaic";
+import { Mosaic, type MosaicImage } from "./Mosaic";
 
 import image1 from "../assets/design/d1.png";
 import image2 from "../assets/design/d2.png";
-// import image3 from "../assets/design/";
 import image4 from "../assets/design/d4.png";
 import image5 from "../assets/design/d5.png";
 import image6 from "../assets/design/d6.jpg";
@@ -32,7 +31,6 @@ function Projects() {
   const sources = [
     { src: image1, alt: "Project 1" },
     { src: image2, alt: "Project 2" },
-    // { src: image3, alt: "Project 3" },
     { src: image4, alt: "Project 4" },
     { src: image5, alt: "Project 5" },
     { src: image6, alt: "Project 6" },

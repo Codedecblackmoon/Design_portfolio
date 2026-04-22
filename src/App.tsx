@@ -1,13 +1,11 @@
-import Home from '../components/Home'
-import About from '../components/About'
-import Projects from '../components/Projects'
-import Contact from '../components/Contact'
-// import Services from './components/Services'
-// import AXA from './components/Expe'
-import  git from '../assets/git_whait.png'
-import  intsa from '../assets/insta.png'
-import  link from '../assets/link.png'
-import './App.css'
+import Home from './components/Home'
+import About from './components/About'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
+import  git from './assets/git_whait.png'
+import  intsa from './assets/insta.png'
+import  link from './assets/link.png'
+// import './App.css'
 
 export function App() {
   
